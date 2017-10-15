@@ -183,7 +183,7 @@ a.about-button:hover{box-shadow:0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(
 .sidebar-wrapper{width:310px!important;padding:0;float:right;margin:0 0 40px}
 .navbar-default{padding:20px 0 30px;background:0;border:0;border-radius:0;z-index:9;position:absolute;top:0;left:0;width:100%}
 .nav-scroll{background:#111;height:80px;line-height:80px;padding:0;position:fixed;top:0;left:0;width:100%;transition:all .5s;z-index:99}
-.navbar-default .navbar-brand,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover{font-weight:600;font-size:60px;color:#c49b66}
+.navbar-default .navbar-brand,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover{line-height: normal;position:absolute;font-weight:600;font-size:60px;color:#c49b66}
 .navbar-brand{padding:4px 0;font-size:18px;line-height:20px;display:inline-block;text-transform:lowercase;margin-left:-60px!important}
 .nav-scroll .navbar-brand{font-size:50px!Important;padding:5px 0}
 h1.navbar-brand{transition:.2s}
@@ -806,11 +806,12 @@ user is not using shrink to fit then we expand the header.
                 </div>
                 <div class='content mb-20'>
                   <!-- About Bio --> 
-                  <p class='mb-20'>Art is... what lies inside of a man's heart...</p>
+                  <p class='mb-20'>Art is... what lies inside a man's heart...</p>
                   <p>As a visual artist, I'm a keen observer of eye-catchy creations. Never had any kind of formal education in this field but inspired by the brushworks of the old masters, I started my journey. Interests varies from drawing, painting and illustrations. Past creation includes the use of graphite, oils, and digital media. I'm currently studying figurative art and portraiture using oils. Let's draw! ^_^</p>
                 </div>
 
                 <!-- About Social Links -->
+				<!-- 
                 <div class='social-icon'>
                   <a href='https://www.facebook.com/bando.suraj' target="_blank">
                     <span><i aria-hidden='true' class='fa fa-facebook'/></span>
@@ -818,7 +819,7 @@ user is not using shrink to fit then we expand the header.
 				  <a href='https://surajbando.deviantart.com/' target="_blank">
                     <span><i aria-hidden='true' class='fa fa-deviantart'/></span>
                   </a>
-                  <!-- <a href='#0'>
+                  <a href='#0'>
                     <span><i aria-hidden='true' class='fa fa-twitter'/></span>
                   </a>
                   <a href='#0'>
@@ -826,8 +827,8 @@ user is not using shrink to fit then we expand the header.
                   </a>
                   <a href='#0'>
                     <span><i aria-hidden='true' class='fa fa-github'/></span>
-                  </a>-->
-                </div>
+                  </a>
+                </div>-->
                 <!-- About Links --> 
                 <!-- <div class='profile-btns'>
                   <a class='about-button' href='http://www.templateclue.com'>Hire me</a>
@@ -935,23 +936,31 @@ user is not using shrink to fit then we expand the header.
           <div class='row'>
 
             <!-- num items -->
-            <div class='col-sm-3'>
+            <div class='col-sm-6'>
               <div class='num-items'>
-                <span class='lnr lnr-gift'/>
-                <p class='counter'>764</p>
-                <h6>Awards Won</h6>
+                <a href='https://www.facebook.com/bando.suraj' target="_blank">
+                    <span><i aria-hidden='true' class='fa fa-facebook'/></span>
+                  </a>
+				  <!-- <h6>https://www.facebook.com/bando.suraj</h6> -->
+				  <a href='https://www.facebook.com/bando.suraj' target="_blank">
+                    <h6>https://www.facebook.com/bando.suraj</h6>
+                  </a>
               </div>
             </div>
 
-            <div class='col-sm-3'>
+            <div class='col-sm-6'>
               <div class='num-items'>
-                <span class='lnr lnr-smile'/>
-                <p class='counter'>1664</p>
-                <h6>Happy Customers</h6>
+                <a href='https://surajbando.deviantart.com' target="_blank">
+                    <span><i aria-hidden='true' class='fa fa-deviantart'/></span>
+                  </a>
+                <!-- <h6>https://surajbando.deviantart.com</h6> -->
+				<a href='https://surajbando.deviantart.com' target="_blank">
+                    <h6>https://surajbando.deviantart.com</h6>
+                  </a>
               </div>
             </div>
 
-            <div class='col-sm-3'>
+            <!-- <div class='col-sm-3'>
               <div class='num-items'>
                 <span class='lnr lnr-layers'/>
                 <p class='counter'>2964</p>
@@ -965,7 +974,7 @@ user is not using shrink to fit then we expand the header.
                 <p class='counter'>1564</p>
                 <h6>Photos Made</h6>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -2014,21 +2023,13 @@ user is not using shrink to fit then we expand the header.
                           <data:post.author/>
                           </a>
                           <!-- A_Bio -->
-                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna Veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                          <p class='mb-20'>Art is... what lies inside a man's heart...</p>
                         </div>
                       </div>
                       <ul class='social'>
-                        <li><a href='http://twitter.com' target='_blank'><i aria-hidden='true' class='fa fa-twitter'/></a>
+                        <li><a href='https://www.facebook.com/bando.suraj' target='_blank'><i aria-hidden='true' class='fa fa-facebook'/></a>
                         </li>
-                        <li><a href='http://facebook.com' target='_blank'><i aria-hidden='true' class='fa fa-facebook'/></a>
-                        </li>
-                        <li><a href='http://instagram.com' target='_blank'><i aria-hidden='true' class='fa fa-instagram'/></a>
-                        </li>
-                        <li><a href='http://pinterest.com' target='_blank'><i aria-hidden='true' class='fa fa-pinterest'/></a>
-                        </li>
-                        <li><a href='http://g-plus.com' target='_blank'><i aria-hidden='true' class='fa fa-google-plus'/></a>
-                        </li>
-                        <li><a href='http://youtube.com' target='_blank'><i aria-hidden='true' class='fa fa-youtube'/></a>
+                        <li><a href='https://surajbando.deviantart.com/' target='_blank'><i aria-hidden='true' class='fa fa-deviantart'/></a>
                         </li>
                       </ul>
                     </div>
