@@ -65,15 +65,6 @@
 
     &lt;style type=&quot;text/css&quot;&gt;&lt;!-- /* 
     <b:skin><![CDATA[/*
-//////////////////////////////////////////////////////////////
-//                                                         //
-//  Theme Name : Isaac                                    //
-//  Author : Templateclue								 //
-//  Site :www.Templateclue.com                          //
-//  License : Creative Commons Attribution License	   //
-//  Share and Use This With Proper Credit.            //
-//                                                   //
-//////////////////////////////////////////////////////
 */
 /*-------------------------------------------*/
 /*  1. Bootstrap
@@ -930,201 +921,16 @@ user is not using shrink to fit then we expand the header.
       </section>
       <!-- ====== End Hero ======  -->
 
-      <!-- ====== Numbers ====== -->
-      <div class='numbers text-center mb-80' id='numbers'>
-        <div class='container'>
-          <div class='row'>
+       <!-- ====== Hire ====== -->
+  <section class='hire section-padding text-center'>
+    <div class='container'>
+      <h3>About PaperDance!</h3>
+      <!-- <a href='#contact'><button>Hire Me</button></a> -->
+    </div>
+  </section>
+  <!--====== End Hire ======-->
 
-            <!-- num items -->
-            <div class='col-sm-6'>
-              <div class='num-items'>
-                <a href='https://www.facebook.com/bando.suraj' target="_blank">
-                    <span><i aria-hidden='true' class='fa fa-facebook'/></span>
-                  </a>
-				  <!-- <h6>https://www.facebook.com/bando.suraj</h6> -->
-				  <a href='https://www.facebook.com/bando.suraj' target="_blank">
-                    <h6>https://www.facebook.com/bando.suraj</h6>
-                  </a>
-              </div>
-            </div>
-
-            <div class='col-sm-6'>
-              <div class='num-items'>
-                <a href='https://surajbando.deviantart.com' target="_blank">
-                    <span><i aria-hidden='true' class='fa fa-deviantart'/></span>
-                  </a>
-                <!-- <h6>https://surajbando.deviantart.com</h6> -->
-				<a href='https://surajbando.deviantart.com' target="_blank">
-                    <h6>https://surajbando.deviantart.com</h6>
-                  </a>
-              </div>
-            </div>
-
-            <!-- <div class='col-sm-3'>
-              <div class='num-items'>
-                <span class='lnr lnr-layers'/>
-                <p class='counter'>2964</p>
-                <h6>Projects Done</h6>
-              </div>
-            </div>
-
-            <div class='col-sm-3'>
-              <div class='num-items'>
-                <span class='lnr lnr-camera'/>
-                <p class='counter'>1564</p>
-                <h6>Photos Made</h6>
-              </div>
-            </div> -->
-          </div>
-        </div>
-      </div>
-      <!-- ====== End Numbers ======  -->
-
-      <!-- ====== Services ====== -->
-      <section class='services text-center section-padding' id='services'>
-        <div class='container mb-80'>
-
-          <!-- section header -->
-          <div class='text-center mb-50'>
-            <h4 class='tc-title tc-title-center'>Artist's Perspective</h4>
-          </div>
-          <div class='row'>
-
-            <!-- services items -->
-            <div class='services-items'>
-              <div class='col-md-4'>
-                <div class='item'>
-                  <span class='lnr lnr-highlight'/>
-				  <h5>Art</h5>
-                  <p>Art is... what lies inside of a man's heart...</p>
-                </div>
-              </div>
-
-              <div class='col-md-4 bord'>
-                <div class='item'>
-                  <span class='lnr lnr-pencil'/>
-				  <h5>Drawing</h5>
-                  <p>Drawing is creating life... like bringing things of beauty that didn't exist before... It's magical...</p>
-                </div>
-              </div>
-
-              <div class='col-md-4'>
-                <div class='item'>
-                  <span class='lnr lnr-apartment'/>
-                  <h5>Illustration</h5>
-                  <p>How it feels like when it happens in front of your eyes.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class='services-items'>
-              <div class='col-md-6'>
-                <div class='item'>
-                  <span class='lnr lnr-layers'/>
-                  <h5>Sketching</h5>
-                  <p>It is the first step in lighting up the ideas.</p>
-                </div>
-              </div>
-
-              <div class='col-md-6 bord'>
-                <div class='item'>
-                  <span class='lnr lnr-picture'/>
-                  <h5>Painting</h5>
-                  <p>Brushwork has their own way of lighting up the eyes.</p>
-                </div>
-              </div>
-
-              <!-- <div class='col-md-4'>
-                <div class='item'>
-                  <span class='lnr lnr-star'/>
-                  <h5>Photography</h5>
-                  <p>Fusce quis volutpat porta, ut tincidunt eros est nec diam erat quis volutpat porta</p>
-                </div>
-              </div> -->
-            </div>
-
-          </div>
-        </div>
-      </section>
-      <!--====== End Services ======-->
-
-      <!-- ====== Clients ====== -->
-      <section class='clients mb-50' id='clients'>
-        <div class='container'>
-          <div class='row'>
-
-            <!-- clients carousel -->
-            <div class='col-md-10 col-md-offset-1'>
-              <div class='client-say text-center'>
-                <div class='owl-carousel owl-theme'>
-
-                  <!-- client item -->
-                  <div class='client-item text-center'>
-
-                    <span class='icon-quote'/><br/>
-
-                    <h5 class='mb-30'>An Italian Sculptor</h5>
-
-                    <p class='mb-20'>The true work of art is but a shadow of the divine perfection. A man paints with his brains and not with his hands.</p>
-
-                    <h6>___ Michelangelo[1475-1564] ___</h6>
-                  </div>
-
-                  <!-- client item -->
-                  <div class='client-item text-center'>
-
-                    <span class='icon-quote'/><br/>
-
-                    <h5 class='mb-30'>A Dutch Painter</h5>
-
-                    <p class='mb-20'>A painting is finished when the artist says it is finished.</p>
-
-                    <h6>___ Rembrandt van Rijn [1606-1669]___</h6>
-                  </div>
-
-                  <!-- client item -->
-                  <div class='client-item text-center'>
-
-                    <span class='icon-quote'/><br/>
-
-                    <h5 class='mb-30'>French Impressionist Painter</h5>
-
-                    <p class='mb-20'>Colour is my day-long obsession, joy and torment.</p>
-
-                    <h6>___ Claude Monet [1840-1926] ___</h6>
-                  </div>
-				  
-				  <!-- client item -->
-                  <div class='client-item text-center'>
-
-                    <span class='icon-quote'/><br/>
-
-                    <h5 class='mb-30'>Spanish painter</h5>
-
-                    <p class='mb-20'>Art washes away from the soul the dust of everyday life.</p>
-
-                    <h6>___ Pablo Picasso [1881-1973] ___</h6>
-                  </div>
-				  
-				  <!-- client item -->
-                  <div class='client-item text-center'>
-
-                    <span class='icon-quote'/><br/>
-
-                    <h5 class='mb-30'>Mathematician</h5>
-
-                    <p class='mb-20'>Learning never exhausts the mind.</p>
-
-                    <h6>___ Leonardo da Vinci [1452-1519] ___</h6>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--====== End Clients ======-->
+      
 
     </b:if>
   </b:if>
@@ -2534,14 +2340,209 @@ user is not using shrink to fit then we expand the header.
     </div>
   </div>
   
-  <!-- ====== Hire ====== -->
-  <section class='hire section-padding text-center'>
-    <div class='container'>
-      <h3>About PaperDance!</h3>
-      <!-- <a href='#contact'><button>Hire Me</button></a> -->
-    </div>
-  </section>
-  <!--====== End Hire ======-->
+
+  <b:if cond='data:blog.pageType != &quot;item&quot;'>
+    <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+  <!-- ====== Numbers ====== -->
+      <div class='numbers text-center mb-80' id='numbers'>
+        <div class='container'>
+          <div class='row'>
+
+            <!-- num items -->
+            <div class='col-sm-6'>
+              <div class='num-items'>
+                <a href='https://www.facebook.com/bando.suraj' target="_blank">
+                    <span><i aria-hidden='true' class='fa fa-facebook'/></span>
+                  </a>
+				  <!-- <h6>https://www.facebook.com/bando.suraj</h6> -->
+				  <a href='https://www.facebook.com/bando.suraj' target="_blank">
+                    <h6>https://www.facebook.com/bando.suraj</h6>
+                  </a>
+              </div>
+            </div>
+
+            <div class='col-sm-6'>
+              <div class='num-items'>
+                <a href='https://surajbando.deviantart.com' target="_blank">
+                    <span><i aria-hidden='true' class='fa fa-deviantart'/></span>
+                  </a>
+                <!-- <h6>https://surajbando.deviantart.com</h6> -->
+				<a href='https://surajbando.deviantart.com' target="_blank">
+                    <h6>https://surajbando.deviantart.com</h6>
+                  </a>
+              </div>
+            </div>
+
+            <!-- <div class='col-sm-3'>
+              <div class='num-items'>
+                <span class='lnr lnr-layers'/>
+                <p class='counter'>2964</p>
+                <h6>Projects Done</h6>
+              </div>
+            </div>
+
+            <div class='col-sm-3'>
+              <div class='num-items'>
+                <span class='lnr lnr-camera'/>
+                <p class='counter'>1564</p>
+                <h6>Photos Made</h6>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- ====== End Numbers ======  -->
+
+      <!-- ====== Services ====== -->
+      <section class='services text-center section-padding' id='services'>
+        <div class='container mb-80'>
+
+          <!-- section header -->
+          <div class='text-center mb-50'>
+            <h4 class='tc-title tc-title-center'>Artist's Perspective</h4>
+          </div>
+          <div class='row'>
+
+            <!-- services items -->
+            <div class='services-items'>
+              <div class='col-md-4'>
+                <div class='item'>
+                  <span class='lnr lnr-highlight'/>
+				  <h5>Art</h5>
+                  <p>Art is... what lies inside of a man's heart...</p>
+                </div>
+              </div>
+
+              <div class='col-md-4 bord'>
+                <div class='item'>
+                  <span class='lnr lnr-pencil'/>
+				  <h5>Drawing</h5>
+                  <p>Drawing is creating life... like bringing things of beauty that didn't exist before... It's magical...</p>
+                </div>
+              </div>
+
+              <div class='col-md-4'>
+                <div class='item'>
+                  <span class='lnr lnr-apartment'/>
+                  <h5>Illustration</h5>
+                  <p>How it feels like when it happens in front of your eyes.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class='services-items'>
+              <div class='col-md-6'>
+                <div class='item'>
+                  <span class='lnr lnr-layers'/>
+                  <h5>Sketching</h5>
+                  <p>It is the first step in lighting up the ideas.</p>
+                </div>
+              </div>
+
+              <div class='col-md-6 bord'>
+                <div class='item'>
+                  <span class='lnr lnr-picture'/>
+                  <h5>Painting</h5>
+                  <p>Brushwork has their own way of lighting up the eyes.</p>
+                </div>
+              </div>
+
+              <!-- <div class='col-md-4'>
+                <div class='item'>
+                  <span class='lnr lnr-star'/>
+                  <h5>Photography</h5>
+                  <p>Fusce quis volutpat porta, ut tincidunt eros est nec diam erat quis volutpat porta</p>
+                </div>
+              </div> -->
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!--====== End Services ======-->
+
+      <!-- ====== Clients ====== -->
+      <section class='clients mb-50' id='clients'>
+        <div class='container'>
+          <div class='row'>
+
+            <!-- clients carousel -->
+            <div class='col-md-10 col-md-offset-1'>
+              <div class='client-say text-center'>
+                <div class='owl-carousel owl-theme'>
+
+                  <!-- client item -->
+                  <div class='client-item text-center'>
+
+                    <span class='icon-quote'/><br/>
+
+                    <h5 class='mb-30'>An Italian Sculptor</h5>
+
+                    <p class='mb-20'>The true work of art is but a shadow of the divine perfection. A man paints with his brains and not with his hands.</p>
+
+                    <h6>___ Michelangelo[1475-1564] ___</h6>
+                  </div>
+
+                  <!-- client item -->
+                  <div class='client-item text-center'>
+
+                    <span class='icon-quote'/><br/>
+
+                    <h5 class='mb-30'>A Dutch Painter</h5>
+
+                    <p class='mb-20'>A painting is finished when the artist says it is finished.</p>
+
+                    <h6>___ Rembrandt van Rijn [1606-1669]___</h6>
+                  </div>
+
+                  <!-- client item -->
+                  <div class='client-item text-center'>
+
+                    <span class='icon-quote'/><br/>
+
+                    <h5 class='mb-30'>French Impressionist Painter</h5>
+
+                    <p class='mb-20'>Colour is my day-long obsession, joy and torment.</p>
+
+                    <h6>___ Claude Monet [1840-1926] ___</h6>
+                  </div>
+				  
+				  <!-- client item -->
+                  <div class='client-item text-center'>
+
+                    <span class='icon-quote'/><br/>
+
+                    <h5 class='mb-30'>Spanish painter</h5>
+
+                    <p class='mb-20'>Art washes away from the soul the dust of everyday life.</p>
+
+                    <h6>___ Pablo Picasso [1881-1973] ___</h6>
+                  </div>
+				  
+				  <!-- client item -->
+                  <div class='client-item text-center'>
+
+                    <span class='icon-quote'/><br/>
+
+                    <h5 class='mb-30'>Mathematician</h5>
+
+                    <p class='mb-20'>Learning never exhausts the mind.</p>
+
+                    <h6>___ Leonardo da Vinci [1452-1519] ___</h6>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--====== End Clients ======-->
+
+      </b:if>
+  </b:if>
+
+      <!-- CODE HERE -->
 
   <section class='section nopaddingbottom' id='contact'>
     <div class='container-fluid'>
