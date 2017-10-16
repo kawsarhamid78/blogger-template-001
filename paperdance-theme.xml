@@ -20,9 +20,9 @@
 
   <!-- Description and Keywords -->
   <b:if cond='data:blog.pageType == &quot;index&quot;'>
-    <meta content='YOUR DESCRIPTION HERE' name='description'/>
+    <meta content='Siya, Kites &amp; PaperDance!' name='description'/>
   </b:if>
-  <meta content='YOUR KEYWORDS HERE' name='keywords'/>
+  <meta content='Siya, Kites &amp; PaperDance!' name='keywords'/>
   <b:if cond='data:blog.pageType == &quot;item&quot;'>
     <meta expr:content='data:blog.pageName' property='og:title'/>
     <meta expr:content='data:blog.canonicalUrl' property='og:url'/>
@@ -496,8 +496,8 @@ h2.date-header{display:none}
 .first_post_img{width:100%}
 .big_post_image{margin:0 -15px}
 @media only screen and (max-width:550px){.hero-img{width:100%!Important}
-h1.navbar-brand{font-size:45px!important}
-.nav-scroll .navbar-brand{font-size:35px!Important;line-height:25px!Important}
+h1.navbar-brand{font-size:30px!important}
+.nav-scroll .navbar-brand{font-size:30px!Important;line-height:25px!Important}
 }@media only screen and (max-width:1350px){.navbar-brand{margin-left:25px!important}
 .hero-img img{width:100%!important;height:inherit!important}
 }@media only screen and (max-width:1200px){.menu-area .container{width:100%}
@@ -1805,6 +1805,9 @@ user is not using shrink to fit then we expand the header.
                           <li><a expr:href='&quot;http://pinterest.com/pin/create/button/?url=&quot; + data:post.url + &quot;&amp;media=&quot; + data:post.thumbnailUrl + &quot;&amp;description=&quot; + data:post.snippet' onclick='window.open(this.href, &apos;windowName&apos;, &apos;width=550, height=600, left=24, top=24, scrollbars, resizable&apos;); return false;' rel='nofollow'><i class='fa fa-pinterest'/></a></li>
                         </ul>
                       </div>
+                      <div>
+                        <b:include name='nextprev'/>
+                      </div>
                     </b:if>
                   </div>
 
@@ -2560,7 +2563,9 @@ user is not using shrink to fit then we expand the header.
                   <div>Suraj Bando</div>
                 </div>
                 <div class='item col-md-6 col-sm-6'>
-                  <i class='fa fa-envelope'/>
+                  <a href='mailto:surajbando@gmail.com?Subject=PaperDanceStudio' target='_top'>
+                    <span><i class='fa fa-envelope'/></span>
+                  </a>
                   <div><a href='mailto:surajbando@gmail.com?Subject=PaperDanceStudio' target='_top'>surajbando@gmail.com</a></div>
                 </div>
                 <div class='item col-md-6 col-sm-6'>
