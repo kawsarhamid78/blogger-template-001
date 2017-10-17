@@ -508,7 +508,7 @@ h1.navbar-brand{font-size:30px!important}
 .me-image{text-align:center}
 .portfolio-caption h4{margin-top:80px}
 .single-testimonial{padding:80px 20px}
-}@media only screen and (max-width:767px){.navbar-toggle .icon-bar{background:#333}
+}@media only screen and (max-width:767px){.navbar-toggle{display:none;} .icon-bar{background:#333}
 .navbar-toggle{margin-right:0;margin-top:-30px}
 .navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse{background:#1b1b1b}
 .navbar{min-height:0}
@@ -797,8 +797,8 @@ user is not using shrink to fit then we expand the header.
                 </div>
                 <div class='content mb-20'>
                   <!-- About Bio --> 
-                  <p class='mb-20'>Art is... what lies inside a man's heart...</p>
-                  <p>As a visual artist, I'm a keen observer of eye-catchy creations. Never had any kind of formal education in this field but inspired by the brushworks of the old masters, I started my journey. Interests varies from drawing, painting and illustrations. Past creation includes the use of graphite, oils, and digital media. I'm currently studying figurative art and portraiture using oils. Let's draw! ^_^</p>
+                  <p class='mb-20'>Art is... what lies inside a man&#39;s heart...</p>
+                  <p>As a visual artist, I&#39;m a keen observer of eye-catchy creations. Never had any kind of formal education in this field but inspired by the brushworks of the old masters, I started my journey. Interests varies from drawing, painting and illustrations. Past creation includes the use of graphite, oils, and digital media. I&#39;m currently studying figurative art and portraiture using oils. Let&#39;s draw! ^_^</p>
                 </div>
 
                 <!-- About Social Links -->
@@ -1832,7 +1832,7 @@ user is not using shrink to fit then we expand the header.
                           <data:post.author/>
                           </a>
                           <!-- A_Bio -->
-                          <p class='mb-20'>Art is... what lies inside a man's heart...</p>
+                          <p class='mb-20'>Art is... what lies inside a man&#39;s heart...</p>
                         </div>
                       </div>
                       <ul class='social'>
@@ -2305,33 +2305,6 @@ user is not using shrink to fit then we expand the header.
                   </div>
                 </b:includable>
               </b:widget>
-			  <!--
-              <b:widget id='HTML1' locked='false' title='Facebook' type='HTML' version='1'>
-                <b:widget-settings>
-                  <b:widget-setting name='content'>&lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;
-                    &lt;script&gt;(function(d, s, id) {
-                    var js, fjs = d.getElementsByTagName(s)[0];
-                    if (d.getElementById(id)) return;
-                    js = d.createElement(s); js.id = id;
-                    js.src = &quot;//connect.facebook.net/en_GB/sdk.js#xfbml=1&amp;version=v2.9&amp;appId=384288681912501&quot;;
-                    fjs.parentNode.insertBefore(js, fjs);
-                    }(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));&lt;/script&gt;
-
-                    &lt;div class=&quot;fb-page&quot; data-href=&quot;https://www.facebook.com/templateclue/&quot; data-small-header=&quot;false&quot; data-adapt-container-width=&quot;true&quot; data-hide-cover=&quot;false&quot; data-show-facepile=&quot;true&quot;&gt;&lt;blockquote cite=&quot;https://www.facebook.com/templateclue/&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;&lt;a href=&quot;https://www.facebook.com/templateclue/&quot;&gt;Templateclue&lt;/a&gt;&lt;/blockquote&gt;&lt;/div&gt;</b:widget-setting>
-                </b:widget-settings>
-                <b:includable id='main'>
-                  
-                  <b:if cond='data:title != &quot;&quot;'>
-                    <h2 class='title'><data:title/></h2>
-                  </b:if>
-                  <div class='widget-content'>
-                    <data:content/>
-                  </div>
-
-                  <b:include name='quickedit'/>
-                </b:includable>
-              </b:widget>
-			  -->
             </b:section>
 
           </div><!-- /sidebar-wrapper -->
@@ -2354,11 +2327,11 @@ user is not using shrink to fit then we expand the header.
             <!-- num items -->
             <div class='col-sm-6'>
               <div class='num-items'>
-                <a href='https://www.facebook.com/bando.suraj' target="_blank">
+                <a href='https://www.facebook.com/bando.suraj' target='_blank'>
                     <span><i aria-hidden='true' class='fa fa-facebook'/></span>
                   </a>
 				  <!-- <h6>https://www.facebook.com/bando.suraj</h6> -->
-				  <a href='https://www.facebook.com/bando.suraj' target="_blank">
+				  <a href='https://www.facebook.com/bando.suraj' target='_blank'>
                     <h6>https://www.facebook.com/bando.suraj</h6>
                   </a>
               </div>
@@ -2366,11 +2339,11 @@ user is not using shrink to fit then we expand the header.
 
             <div class='col-sm-6'>
               <div class='num-items'>
-                <a href='https://surajbando.deviantart.com' target="_blank">
+                <a href='https://surajbando.deviantart.com' target='_blank'>
                     <span><i aria-hidden='true' class='fa fa-deviantart'/></span>
                   </a>
                 <!-- <h6>https://surajbando.deviantart.com</h6> -->
-				<a href='https://surajbando.deviantart.com' target="_blank">
+				<a href='https://surajbando.deviantart.com' target='_blank'>
                     <h6>https://surajbando.deviantart.com</h6>
                   </a>
               </div>
@@ -2402,7 +2375,7 @@ user is not using shrink to fit then we expand the header.
 
           <!-- section header -->
           <div class='text-center mb-50'>
-            <h4 class='tc-title tc-title-center'>Artist's Perspective</h4>
+            <h4 class='tc-title tc-title-center'>Artist&#39;s Perspective</h4>
           </div>
           <div class='row'>
 
@@ -2412,7 +2385,7 @@ user is not using shrink to fit then we expand the header.
                 <div class='item'>
                   <span class='lnr lnr-highlight'/>
 				  <h5>Art</h5>
-                  <p>Art is... what lies inside of a man's heart...</p>
+                  <p>Art is... what lies inside of a man&#39;s heart...</p>
                 </div>
               </div>
 
@@ -2420,7 +2393,7 @@ user is not using shrink to fit then we expand the header.
                 <div class='item'>
                   <span class='lnr lnr-pencil'/>
 				  <h5>Drawing</h5>
-                  <p>Drawing is creating life... like bringing things of beauty that didn't exist before... It's magical...</p>
+                  <p>Drawing is creating life... like bringing things of beauty that didn&#39;t exist before... It&#39;s magical...</p>
                 </div>
               </div>
 
@@ -2609,40 +2582,6 @@ user is not using shrink to fit then we expand the header.
                     <b:include name='quickedit'/>
                   </b:includable>
                 </b:widget>
-                <!--
-				<b:widget id='PageList1' locked='false' title='Pages' type='PageList'>
-                  <b:widget-settings>
-                    <b:widget-setting name='pageListJson'><![CDATA[{'home': {'href': 'http://www.paperdance.in/', 'title': 'Home', 'position': 0}, '8336269807784510931': {'href': 'http://www.paperdance.in/p/about.html', 'title': 'About Artist', 'position': 1}}]]></b:widget-setting>
-                    <b:widget-setting name='homeTitle'>Home</b:widget-setting>
-                  </b:widget-settings>
-                  <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
-  <div class='widget-content'>
-    <b:if cond='data:mobile'>
-      <select expr:id='data:widget.instanceId + &quot;_select&quot;'>
-        <b:loop values='data:links' var='link'>
-          <option b:whitespace='remove' expr:value='data:link.href'>
-            <b:attr cond='data:link.isCurrentPage' name='selected' value='selected'/>
-            <data:link.title/>
-          </option>
-        </b:loop>
-      </select>
-      <span class='pagelist-arrow'>&amp;#9660;</span>
-    <b:else/>
-      <ul>
-        <b:loop values='data:links' var='link'>
-          <li>
-            <b:class cond='data:link.isCurrentPage' name='selected'/>
-            <a expr:href='data:link.href'><data:link.title/></a>
-          </li>
-        </b:loop>
-      </ul>
-    </b:if>
-    <b:include name='quickedit'/>
-  </div>
-</b:includable>
-                </b:widget>
-				-->
                 <b:widget id='BlogArchive1' locked='false' title='Blog Archive' type='BlogArchive'>
                   <b:widget-settings>
                     <b:widget-setting name='showStyle'>HIERARCHY</b:widget-setting>
@@ -2723,44 +2662,6 @@ user is not using shrink to fit then we expand the header.
   </a>
 </b:includable>
                 </b:widget>
-				
-				<!--
-                <b:widget id='Navbar1' locked='false' title='Navbar' type='Navbar'>
-                  <b:includable id='main'>&lt;script type=&quot;text/javascript&quot;&gt;
-    function setAttributeOnload(object, attribute, val) {
-      if(window.addEventListener) {
-        window.addEventListener(&#39;load&#39;,
-          function(){ object[attribute] = val; }, false);
-      } else {
-        window.attachEvent(&#39;onload&#39;, function(){ object[attribute] = val; });
-      }
-    }
-  &lt;/script&gt;
-&lt;div id=&quot;navbar-iframe-container&quot;&gt;&lt;/div&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-      gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
-        if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
-          gapi.iframes.getContext().openChild({
-              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d9109928823623569530\x26blogName\x3dPaper+Dance!+Studio\x26publishMode\x3dPUBLISH_MODE_HOSTED\x26navbarType\x3dLIGHT\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttp://www.paperdance.in/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttp://www.paperdance.in/\x26vt\x3d-5734869508817048554&#39;,
-              where: document.getElementById(&quot;navbar-iframe-container&quot;),
-              id: &quot;navbar-iframe&quot;
-          });
-        }
-      });
-    &lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
-(function() {
-var script = document.createElement(&#39;script&#39;);
-script.type = &#39;text/javascript&#39;;
-script.src = &#39;//pagead2.googlesyndication.com/pagead/js/google_top_exp.js&#39;;
-var head = document.getElementsByTagName(&#39;head&#39;)[0];
-if (head) {
-head.appendChild(script);
-}})();
-&lt;/script&gt;
-</b:includable>
-                </b:widget>
-				-->
               </b:section>
               <div class='messages'/>
             </div>
