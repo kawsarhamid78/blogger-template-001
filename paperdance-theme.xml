@@ -924,8 +924,7 @@ user is not using shrink to fit then we expand the header.
        <!-- ====== Hire ====== -->
   <section class='hire section-padding text-center'>
     <div class='container'>
-      <h3>About PaperDance!</h3>
-      <!-- <a href='#contact'><button>Hire Me</button></a> -->
+      <h3>About PaperDance</h3>
     </div>
   </section>
   <!--====== End Hire ======-->
@@ -2422,14 +2421,36 @@ user is not using shrink to fit then we expand the header.
                   <p>Brushwork has their own way of lighting up the eyes.</p>
                 </div>
               </div>
+            </div>
 
-              <!-- <div class='col-md-4'>
+            <div class='services-items'>
+              <div class='col-md-12'>
                 <div class='item'>
-                  <span class='lnr lnr-star'/>
-                  <h5>Photography</h5>
-                  <p>Fusce quis volutpat porta, ut tincidunt eros est nec diam erat quis volutpat porta</p>
+                  <span class='lnr lnr-book'/>
+                  <h5>Special Thanks</h5>
+                    <dl>
+                      <dt>Almighty</dt>
+                        <dd>For his grace.</dd>
+                      <dt>Parents &amp; My Sweet Family</dt>
+                        <dd>For where I stand today.</dd>
+                      <dt>Friends</dt>
+                        <dd>For Appreciation &amp; Support.</dd>  
+                      <dt>Engineering Mechanics Lab</dt>
+                        <dd>All the drawings started there.</dd>
+                      <dt>Youtube Videos</dt>
+                        <dd>For all the drawing tutorials &amp; the time lapse videos.</dd>
+                        <dd>For animation <a href="https://www.youtube.com/watch?v=OBk3ynRbtsw">Thought of You</a> by Ryan Woodward which acted as a source inspiration and origin for PaperDance! as well.</dd>
+                      <dt>Art Gallery Websites</dt>
+                        <dd>For source of works of the old masters.</dd>
+                        <dd><a href="https://www.metmuseum.org/">Metrapolitan Museum of Art</a></dd>
+                        <dd><a href="https://www.nga.gov/">National Gallery of Art</a></dd>
+                      <dt>Web Developers Websites</dt>
+                        <dd>For sourcecode.</dd>
+                        <dd><a href="https://www.blogger.com/">Blogger</a></dd>
+                        <dd><a href="http://www.templateclue.com/">Template Clue</a></dd>
+                    </dl>
                 </div>
-              </div> -->
+              </div>
             </div>
 
           </div>
