@@ -3,15 +3,16 @@
 <html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   &lt;head&gt;
   
-  <script async='async' src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script async='async' src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'/>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-5525427263057318",
+    google_ad_client: &quot;ca-pub-5525427263057318&quot;,
     enable_page_level_ads: true
   });
 </script>
 
   <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+<meta content='ac93abaccb884dbe317d0d4fdc17dd15' name='p:domain_verify'/>
   <b:include data='blog' name='all-head-content'/>
 
   <title>
@@ -1224,7 +1225,7 @@ user is not using shrink to fit then we expand the header.
                 <!-- About Social Links -->
 				<!-- 
                 <div class='social-icon'>
-                  <a href='https://www.facebook.com/bando.suraj' target="_blank">
+                  <a href='https://www.facebook.com/PaperDanceStudio' target="_blank">
                     <span><i aria-hidden='true' class='fa fa-facebook'/></span>
                   </a>
 				  <a href='https://surajbando.deviantart.com/' target="_blank">
@@ -2255,7 +2256,7 @@ user is not using shrink to fit then we expand the header.
                         </div>
                       </div>
                       <ul class='social'>
-                        <li><a href='https://www.facebook.com/bando.suraj' target='_blank'><i aria-hidden='true' class='fa fa-facebook'/></a>
+                        <li><a href='https://www.facebook.com/PaperDanceStudio' target='_blank'><i aria-hidden='true' class='fa fa-facebook'/></a>
                         </li>
                         <li><a href='https://surajbando.deviantart.com/' target='_blank'><i aria-hidden='true' class='fa fa-deviantart'/></a>
                         </li>
@@ -2746,12 +2747,12 @@ user is not using shrink to fit then we expand the header.
             <!-- num items -->
             <div class='col-sm-6'>
               <div class='num-items'>
-                <a href='https://www.facebook.com/bando.suraj' target='_blank'>
+                <a href='https://www.facebook.com/PaperDanceStudio' target='_blank'>
                     <span><i aria-hidden='true' class='fa fa-facebook'/></span>
                   </a>
-				  <!-- <h6>https://www.facebook.com/bando.suraj</h6> -->
-				  <a href='https://www.facebook.com/bando.suraj' target='_blank'>
-                    <h6>https://www.facebook.com/bando.suraj</h6>
+				  <!-- <h6>https://www.facebook.com/PaperDanceStudio</h6> -->
+				  <a href='https://www.facebook.com/PaperDanceStudio' target='_blank'>
+                    <h6>https://www.facebook.com/PaperDanceStudio</h6>
                   </a>
               </div>
             </div>
@@ -2768,7 +2769,9 @@ user is not using shrink to fit then we expand the header.
               </div>
             </div>
 
-            <!-- <div class='col-sm-3'>
+            
+
+            <!-- <div class='col-sm-6'>
               <div class='num-items'>
                 <span class='lnr lnr-layers'/>
                 <p class='counter'>2964</p>
@@ -2776,7 +2779,49 @@ user is not using shrink to fit then we expand the header.
               </div>
             </div>
 
-            <div class='col-sm-3'>
+            <div class='col-sm-6'>
+              <div class='num-items'>
+                <span class='lnr lnr-camera'/>
+                <p class='counter'>1564</p>
+                <h6>Photos Made</h6>
+              </div>
+            </div> -->
+          </div>
+
+          <div class='row'>
+            <div class='col-sm-6'>
+                <div class='num-items'>
+                  <a href='https://www.instagram.com/bando.suraj' target='_blank'>
+                      <span><i aria-hidden='true' class='fa fa-instagram'/></span>
+                    </a>
+                  <!-- <h6>https://www.instagram.com/bando.suraj</h6> -->
+                  <a href='https://www.instagram.com/bando.suraj' target='_blank'>
+                      <h6>https://www.instagram.com/bando.suraj</h6>
+                    </a>
+                </div>
+              </div>
+
+              <div class='col-sm-6'>
+                <div class='num-items'>
+                  <a href='https://in.pinterest.com/bandosuraj/' target='_blank'>
+                      <span><i aria-hidden='true' class='fa fa-pinterest'/></span>
+                    </a>
+                  <!-- <h6>https://in.pinterest.com/bandosuraj/</h6> -->
+                  <a href='https://in.pinterest.com/bandosuraj/' target='_blank'>
+                      <h6>https://in.pinterest.com/bandosuraj/</h6>
+                    </a>
+                </div>
+              </div>
+
+            <!-- <div class='col-sm-6'>
+              <div class='num-items'>
+                <span class='lnr lnr-layers'/>
+                <p class='counter'>2964</p>
+                <h6>Projects Done</h6>
+              </div>
+            </div>
+
+            <div class='col-sm-6'>
               <div class='num-items'>
                 <span class='lnr lnr-camera'/>
                 <p class='counter'>1564</p>
