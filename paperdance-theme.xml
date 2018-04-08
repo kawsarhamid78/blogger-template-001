@@ -1218,8 +1218,8 @@ user is not using shrink to fit then we expand the header.
                 </div>
                 <div class='content mb-20'>
                   <!-- About Bio --> 
-                  <p class='mb-20'>Art is... what lies inside a man&#39;s heart...</p>
-                  <p>As a visual artist, I&#39;m a keen observer of eye-catchy creations. Never had any kind of formal education in this field but inspired by the brushworks of the old masters, I started my journey. Interests varies from drawing, painting and illustrations. Past creation includes the use of graphite, oils, and digital media. I&#39;m currently studying figurative art and portraiture using oils. Let&#39;s draw! ^_^</p>
+                  <!-- <p class='mb-20'>Art is... what lies inside a man&#39;s heart...</p> -->
+                  <p>As a visual artist, I&#39;m a keen observer of eye-catchy creations. Never had any kind of formal education in this field but inspired by the brushworks of the old masters, I started my journey. Interests varies from drawing, painting and illustrations. Past creation includes the use of graphite, oils, and digital media. I&#39;m currently studying figurative art and expressionism. Let&#39;s draw! ^_^</p>
                 </div>
 
                 <!-- About Social Links -->
@@ -1345,7 +1345,8 @@ user is not using shrink to fit then we expand the header.
        <!-- ====== Hire ====== -->
   <section class='hire section-padding text-center'>
     <div class='container'>
-      <h3>About PaperDance</h3>
+      <h3>Studio History</h3>
+       Started in Sept,2016.
     </div>
   </section>
   <!--====== End Hire ======-->
@@ -1392,6 +1393,7 @@ user is not using shrink to fit then we expand the header.
                   <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
                   <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
                   <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+                  <b:widget-setting name='timestampLabel'>on</b:widget-setting>
                   <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
                   <b:widget-setting name='style.layout'>1x1</b:widget-setting>
                   <b:widget-setting name='showLabels'>true</b:widget-setting>
@@ -2620,65 +2622,6 @@ user is not using shrink to fit then we expand the header.
 
           <div class='sidebar-wrapper'>
             <b:section class='sidebar' id='sidebar' showaddelement='yes'>
-              <b:widget id='PopularPosts1' locked='false' title='Popular Posts' type='PopularPosts' version='1'>
-                <b:widget-settings>
-                  <b:widget-setting name='numItemsToShow'>3</b:widget-setting>
-                  <b:widget-setting name='showThumbnails'>true</b:widget-setting>
-                  <b:widget-setting name='showSnippets'>false</b:widget-setting>
-                  <b:widget-setting name='timeRange'>LAST_YEAR</b:widget-setting>
-                </b:widget-settings>
-                <b:includable id='main'>
-                  <b:if cond='data:title'><h2><data:title/></h2></b:if>
-                  <div class='widget-content popular-posts'>
-                    <ul>
-                      <b:loop values='data:posts' var='post'>
-                        <li>
-                          <b:if cond='data:showThumbnails == &quot;false&quot;'>
-                            <b:if cond='data:showSnippets == &quot;false&quot;'>
-                              <!-- (1) No snippet/thumbnail -->
-                              <a expr:href='data:post.href'><data:post.title/></a>
-                              <b:else/>
-                              <!-- (2) Show only snippets -->
-                              <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
-                              <div class='item-snippet'><data:post.snippet/></div>
-                            </b:if>
-                            <b:else/>
-                            <b:if cond='data:showSnippets == &quot;false&quot;'>
-                              <!-- (3) Show only thumbnails -->
-                              <div class='item-thumbnail-only'>
-                                <b:if cond='data:post.thumbnail'>
-                                  <div class='item-thumbnail'>
-                                    <a expr:href='data:post.href' target='_blank'>
-                                      <img alt='' border='0' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
-                                    </a>
-                                  </div>
-                                </b:if>
-                                <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
-                              </div>
-                              <div style='clear: both;'/>
-                              <b:else/>
-                              <!-- (4) Show snippets and thumbnails -->
-                              <div class='item-content'>
-                                <b:if cond='data:post.thumbnail'>
-                                  <div class='item-thumbnail'>
-                                    <a expr:href='data:post.href' target='_blank'>
-                                      <img alt='' border='0' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
-                                    </a>
-                                  </div>
-                                </b:if>
-                                <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
-                                <div class='item-snippet'><data:post.snippet/></div>
-                              </div>
-                              <div style='clear: both;'/>
-                            </b:if>
-                          </b:if>
-                        </li>
-                      </b:loop>
-                    </ul>
-                    <b:include name='quickedit'/>
-                  </div>
-                </b:includable>
-              </b:widget>
               <b:widget id='Label1' locked='false' title='Labels' type='Label' version='1'>
                 <b:widget-settings>
                   <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
@@ -2724,6 +2667,86 @@ user is not using shrink to fit then we expand the header.
                     <b:include name='quickedit'/>
                   </div>
                 </b:includable>
+              </b:widget>
+              <b:widget id='BlogArchive1' locked='false' title='Archive' type='BlogArchive'>
+                <b:widget-settings>
+                  <b:widget-setting name='showStyle'>HIERARCHY</b:widget-setting>
+                  <b:widget-setting name='yearPattern'>yyyy</b:widget-setting>
+                  <b:widget-setting name='showWeekEnd'>true</b:widget-setting>
+                  <b:widget-setting name='monthPattern'>MMMM</b:widget-setting>
+                  <b:widget-setting name='dayPattern'>MMM dd</b:widget-setting>
+                  <b:widget-setting name='weekPattern'>MM/dd</b:widget-setting>
+                  <b:widget-setting name='chronological'>false</b:widget-setting>
+                  <b:widget-setting name='showPosts'>true</b:widget-setting>
+                  <b:widget-setting name='frequency'>MONTHLY</b:widget-setting>
+                </b:widget-settings>
+                <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+  <div id='ArchiveList'>
+  <div expr:id='data:widget.instanceId + &quot;_ArchiveList&quot;'>
+    <b:include cond='data:style == &quot;HIERARCHY&quot;' data='data' name='interval'/>
+    <b:include cond='data:style == &quot;FLAT&quot;' data='data' name='flat'/>
+    <b:include cond='data:style == &quot;MENU&quot;' data='data' name='menu'/>
+  </div>
+  </div>
+  <b:include name='quickedit'/>
+  </div>
+</b:includable>
+                <b:includable id='flat' var='data'>
+  <ul class='flat'>
+    <b:loop values='data:data' var='i'>
+      <li class='archivedate'>
+        <a expr:href='data:i.url'><data:i.name/></a> (<data:i.post-count/>)
+      </li>
+    </b:loop>
+  </ul>
+</b:includable>
+                <b:includable id='interval' var='intervalData'>
+  <b:loop values='data:intervalData' var='interval'>
+    <ul class='hierarchy'>
+      <li expr:class='&quot;archivedate &quot; + data:interval.expclass'>
+        <b:include cond='data:interval.toggleId' data='interval' name='toggle'/>
+        <a class='post-count-link' expr:href='data:interval.url'>
+          <data:interval.name/>
+        </a>
+        <span class='post-count' dir='ltr'>(<data:interval.post-count/>)</span>
+        <b:include cond='data:interval.data' data='interval.data' name='interval'/>
+        <b:include cond='data:interval.posts' data='interval.posts' name='posts'/>
+      </li>
+    </ul>
+  </b:loop>
+</b:includable>
+                <b:includable id='menu' var='data'>
+  <select expr:id='data:widget.instanceId + &quot;_ArchiveMenu&quot;'>
+    <option value=''><data:title/></option>
+    <b:loop values='data:data' var='i'>
+      <option expr:value='data:i.url'><data:i.name/> (<data:i.post-count/>)</option>
+    </b:loop>
+  </select>
+</b:includable>
+                <b:includable id='posts' var='posts'>
+  <ul class='posts'>
+    <b:loop values='data:posts' var='post'>
+      <li><a expr:href='data:post.url'><data:post.title/></a></li>
+    </b:loop>
+  </ul>
+</b:includable>
+                <b:includable id='toggle' var='interval'>
+  <a class='toggle' href='javascript:void(0)'>
+    <span expr:class='&quot;zippy&quot; + (data:interval.expclass == &quot;expanded&quot; ? &quot; toggle-open&quot; : &quot;&quot;)'>
+      <b:if cond='data:interval.expclass == &quot;expanded&quot;'>
+        &#9660;&#160;
+      <b:elseif cond='data:blog.languageDirection == &quot;rtl&quot;'/>
+        &#9668;&#160;
+      <b:else/>
+        &#9658;&#160;
+      </b:if>
+    </span>
+  </a>
+</b:includable>
               </b:widget>
             </b:section>
 
